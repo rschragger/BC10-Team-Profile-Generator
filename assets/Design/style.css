@@ -1,0 +1,45 @@
+*{
+padding: 5px;
+}
+
+.header{
+    font-size: 3rem;
+    text-align: center;
+    color: white;
+background-color: red;
+width: 90%;
+padding: 20px;
+margin: 6px auto;
+}
+
+.main{
+    width: 90%;
+    margin:auto;    
+    display: flex;
+    flex: 1 0 300px;
+}
+
+.card{
+background-color: #eee;
+display: flex;
+flex-direction: column;
+}
+
+.card-head{
+    color:white;
+    background-color: blue;
+
+}
+
+.detailList{
+    width: 90%;
+    background-color: white;
+    margin:auto;    
+    display: flex;
+    flex-direction: column;
+}
+
+.detail{
+    border: 1px solid #333;
+    height: auto;
+}
