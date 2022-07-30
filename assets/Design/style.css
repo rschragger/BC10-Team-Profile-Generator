@@ -69,6 +69,13 @@
     background-color: white;
 }
 
+footer{
+    width: 90%;
+    margin:auto;
+    text-align: right;
+    font-size: .6rem;
+}
+
 @media screen and (max-width: 560px) {
     .card {
         max-width: 90%;
