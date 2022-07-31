@@ -161,7 +161,7 @@ function makeHTML(status) {
   //console.log(makeHtmlPage(employeeList))
   // Save the HTML
   fs.writeFile('./dist/index.html',makeHtmlPage(employeeList),((err)=> console.log(err)))
-  console.log('HTML file saved')
+  console.log('\x1b[42m\n\n HTML file saved\n\x1b[0m\n ')
   if (status === 'current') { choosePath() }
 }
 
@@ -170,11 +170,11 @@ function makeHTML(status) {
 
 function endFunction() {
   makeHTML('end');
-  console.log('The End')
+  console.log("\x1b[41m\n\n Thank you for using this product\n\x1b[0m\n ")
 }
 
 function Init() {
-  console.log("\x1b[41m\n\n Welcome to the team builder application.\n Please start by adding in detail for your Team Manager.\n\x1b[47m\n");
+  console.log("\x1b[41m\n\n Welcome to the team builder application.\n Please start by adding in detail for your Team Manager.\n\x1b[0m\n ");
   
   employeeQuestions('Manager');
 
