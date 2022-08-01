@@ -45,9 +45,7 @@
 Pleasee see screencast at [Screencastify](https://drive.google.com/file/d/1LHseL7g5Z0DFNQxArCaRiGKwerPUtCOn/view)
   
   ## Credits
-   
-  
-
+ 
   Languages
 - HTML
 - CSS
@@ -58,8 +56,7 @@ Pleasee see screencast at [Screencastify](https://drive.google.com/file/d/1LHseL
   Third Party Assets
 - Inquirer
 - FS
--  Open
--  Jest
+- Jest
 </p>
   
   Tutorials
@@ -81,6 +78,7 @@ Pleasee see screencast at [Screencastify](https://drive.google.com/file/d/1LHseL
   - emails are correctly structured
   - no null information is supplied by accident
 - Colouring important information in the CLI
+- Using colour to help deliniate the roles and a responsive design for the HTML
 
 Future ideas
 - Add a few more unit tests
@@ -89,12 +87,12 @@ Future ideas
 </p>
   
   ### Contributions
-   
+   This is a student work and as such is not expected to be built upon
   
   
   ## Tests
   
-  Run `npm test`
+  Run `npm test` in command line interface using Jest
 - _tests_/Employee.test.js
 - _tests_/Engineer.test.js
 - _tests_/Intern.test.js
