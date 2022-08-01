@@ -1,24 +1,28 @@
 Karen Strict
 ID.  20
-Email. karen.strict@goodco.com
+Email. 
+karen.strict@goodco.com
 OfficeNo. 2
 
 
 
 Jock McSpeedy
 ID. 100
-Email.  jock.mcspeedy@goodco.com
+Email.  
+jock.mcspeedy@goodco.com
 GitHub.  mcspeedyjock
 
 
 Verity Curious
 ID. 720
-Email.  verityc@gmail.com
+Email.  
+verityc@gmail.com
 School.  Hard Knock U.
 
 Donald Twork
 ID. 220
-Email don.twork@goodco.com
+Email 
+don.twork@goodco.com
 GitHub  dontwork
 
 

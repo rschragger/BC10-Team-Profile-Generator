@@ -41,6 +41,8 @@
     -  The HTML document is in the `/Dist` directory and named `index.html`
 -  When you are satisfied you are finished, you may select `End process and construct final HTML` whereupon the application will end after constructing the final HTML
 </p>
+
+Pleasee see screencast at [Screencastify](https://drive.google.com/file/d/1LHseL7g5Z0DFNQxArCaRiGKwerPUtCOn/view)
   
   ## Credits
    
