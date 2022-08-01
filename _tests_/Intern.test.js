@@ -14,12 +14,12 @@ describe("Intern class", () => {
     });
 
     describe("getRole Method ", () => {
-        it("returns the get Role method", () => {
+        it("returns the get Role method (in lower case)", () => {
             // Arrange
             const intern = new Intern("Man Name", "IDNo", "email@email", "Computer School");
             
             // Assert
-            expect(intern.getRole()).toBe('Intern');
+            expect(intern.getRole()).toBe('intern');
         });
     })
 

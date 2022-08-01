@@ -14,12 +14,12 @@ describe("Engineer class", () => {
     });
 
     describe("getRole Method ", () => {
-        it("returns the get Role method", () => {
+        it("returns the get Role method  (in lower case)", () => {
             // Arrange
             const engineer = new Engineer("Man Name", "IDNo", "email@email", "myGitHubID");
             
             // Assert
-            expect(engineer.getRole()).toBe('Engineer');
+            expect(engineer.getRole()).toBe('engineer');
         });
     })
 

@@ -14,12 +14,12 @@ describe("Manager class", () => {
     });
 
     describe("getRole Method ", () => {
-        it("returns the get Role method", () => {
+        it("returns the get Role method (in lower case)", () => {
             // Arrange
             const manager = new Manager("Man Name", "IDNo", "email@email", 3);
             // Assert
 
-            expect(manager.getRole()).toBe('Manager');
+            expect(manager.getRole()).toBe('manager');
         });
     })
 
