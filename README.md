@@ -77,6 +77,7 @@ Pleasee see screencast at [Screencastify](https://drive.google.com/file/d/1LHseL
   - IDs cannot be repeated
   - emails are correctly structured
   - no null information is supplied by accident
+    - note that IDs and Office numbers are not validated as number only because these have potential string answers
 - Colouring important information in the CLI
 - Using colour to help deliniate the roles and a responsive design for the HTML
 
